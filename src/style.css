@@ -1,0 +1,16 @@
+table {
+    width: 50%;
+    border-collapse: collapse;
+}
+
+th {
+    border: 2px solid black; /* Thicker border for headers */
+    padding: 8px;
+    text-align: left;
+}
+
+td {
+    border: 1px solid black; /* Thinner border for data cells */
+    padding: 8px;
+    text-align: left;
+}
