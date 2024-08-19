@@ -4,29 +4,14 @@
         <link href="style.css" rel="stylesheet" type="text/css" />
     </head>
     <body>
-        <h1>Demo</h1>
-        <p>This is the paragraph uses.</p>
+        <h1>Lamp</h1>
+        <button onclick="document.getElementById('myImage').src='./img/pic_bulbon.gif'">Turn on the light</button>
 
-        <table>
-            <tr>
-                <th>ID</th>
-                <th>Name</th>
-                <th>Age</th>
-                <th>Gender</th>
-            </tr>
-            <tr>
-                <td>001</td>
-                <td>Nathan</td>
-                <td>10</td>
-                <td>Male</td>
-            </tr>
-            <tr>
-                <td>001</td>
-                <td>Eldana</td>
-                <td>12</td>
-                <td>Female</td>
-            </tr>
-        </table>
+        <img id="myImage" src="./img/pic_bulbon.gif" style="width:100px">
+
+        <button onclick="document.getElementById('myImage').src='./img/pic_bulboff.gif'">Turn off the light</button>
+
+
         <script src="index.js"></script>
     </body>
 </html>
